@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support Snippet Generator - Fábio Galdino</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerador de Scripts de Atendimento</h1>
+      <p class="subtitle">
+        Otimize a comunicação da sua equipe. Agilidade e consistência na palma
+        da mão.
+      </p>
+
+      <section>
+        <label for="template-selector">Selecione o Template:</label>
+        <select id="template-selector"></select>
+      </section>
+
+      <section id="variable-inputs"></section>
+
+      <section>
+        <label for="output-text">Resposta Final (Pronta para Copiar):</label>
+        <textarea id="output-text" readonly></textarea>
+        <button id="copy-button">Copiar Texto</button>
+      </section>
+
+      <p
+        style="
+          margin-top: 30px;
+          text-align: center;
+          font-size: 12px;
+          color: #aaa;
+        "
+      >
+        Desenvolvido por Fábio Galdino | JavaScript Puro e Foco em Agilidade.
+      </p>
+    </div>
+
+    <script src="generator.js"></script>
+  </body>
+</html>
