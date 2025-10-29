@@ -29,7 +29,7 @@ O foco do MVP é mostrar a funcionalidade básica e a interface limpa:
 
 O projeto é _client-side_ (roda no navegador). Basta abrir o `index.html` e usar.
 
-🔗 **Link para o Demo (GitHub Pages):** [INSERIR O SEU NOVO LINK DO GITHUB PAGES AQUI]
+🔗 **Link para o Demo (GitHub Pages):** https://fsgaldino.github.io/Gerador-Scripts-Atendimento-JS/
 
 ---
 
